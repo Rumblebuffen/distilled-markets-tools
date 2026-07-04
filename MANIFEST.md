@@ -19,16 +19,18 @@ If a session is interrupted, treat this file as the source of truth for what's l
 - [x] Re-verified in browser: tabs fit at 375px; 320px scrolls with fade +
       auto-scroll-into-view; DCA table swipeable at 768px; all 8 badges correct;
       cleared price shows "—"; band gap shows "Between zones"; console clean
-- [ ] git commit
-- [ ] Create GitHub repo + push (user's GitHub account, via browser)
-- [ ] Create Netlify site connected to the GitHub repo (continuous deploy, no build
-      command, publish directory = repo root)
-- [ ] Verify live URL: page loads, /data/*.json reachable, opens in new tab
-- [ ] Hand over: live URL + GitHub edit steps
+- [x] git commit
+- [x] GitHub repo created + pushed: https://github.com/Rumblebuffen/distilled-markets-tools
+- [x] Hosting: GitHub Pages (user's choice — no Netlify account needed; repo public)
+- [x] Live URL verified 200, all files byte-identical to local:
+      https://rumblebuffen.github.io/distilled-markets-tools/
+- [x] Hand over: live URL + GitHub edit steps
+
+## Nothing remains — build complete (2026-07-04)
 
 ## Fixed decisions (do not revisit)
 - Runtime-fetched JSON only; no build step; no bundler. Founder edits via GitHub
-  web editor; Netlify auto-publishes (~30s file copy).
+  web editor; GitHub Pages auto-publishes (~1–2 min, up to ~10 min CDN cache).
 - Manual weekly price entry — NO market-data API (all free tiers verified
   restricted for paid-membership display; see conversation 2026-07-04).
 - Linked from Skool (target="_blank"), never embedded.
