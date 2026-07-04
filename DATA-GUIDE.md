@@ -1,6 +1,6 @@
 # Data editing guide (plain English)
 
-Everything members see comes from two files in the `data` folder. Edit them on GitHub, commit, wait ~30 seconds, refresh the site. No other steps — ever.
+Everything members see comes from two files in the `data` folder. Edit them on GitHub, commit, refresh the site a minute later. No other steps — ever. (Changes usually appear within a minute or two; occasionally GitHub's cache holds the old version for up to ~10 minutes — if you don't see your edit, wait and refresh again.)
 
 **Two things to know before your first edit:**
 
@@ -14,7 +14,7 @@ Everything members see comes from two files in the `data` folder. Edit them on G
 3. Click the **pencil icon** (top-right of the file view).
 4. Make your changes (rules below).
 5. Click the green **Commit changes** button, then **Commit changes** again in the pop-up.
-6. Wait ~30–60 seconds, then refresh the tools page. Done.
+6. Refresh the tools page a minute or two later. Done. (Up to ~10 minutes in the worst case — GitHub's cache.)
 
 This also works from your phone's browser.
 

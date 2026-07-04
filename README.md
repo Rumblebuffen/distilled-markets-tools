@@ -10,7 +10,7 @@ Three research tools for members, served as one static page with tabs:
 
 - **No build step.** Plain HTML/CSS/JS. What's in this repo is exactly what's served.
 - **All data lives in [`data/portfolios.json`](data/portfolios.json) and [`data/prices.json`](data/prices.json)** and is fetched by the browser at page load. No data values are bundled or hardcoded — though the structural key names the site looks for are fixed (`growth_market`, `defensive_market`, the three profile names, and the three category names; see [DATA-GUIDE.md](DATA-GUIDE.md)).
-- **To change anything members see, edit those two files on GitHub** — see [DATA-GUIDE.md](DATA-GUIDE.md). Netlify republishes automatically on every commit (~30 seconds).
+- **To change anything members see, edit those two files on GitHub** — see [DATA-GUIDE.md](DATA-GUIDE.md). GitHub Pages republishes automatically on every commit (usually 1–2 minutes; up to ~10 minutes with CDN caching).
 
 ## Files
 
