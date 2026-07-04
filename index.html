@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Distilled Markets — Member Research Tools</title>
+  <meta name="description" content="Member research tools: portfolio structures, core asset library, and DCA zone map.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%234da3ff'/%3E%3Ctext x='16' y='21' font-family='Arial' font-size='13' font-weight='bold' fill='%230a0e14' text-anchor='middle'%3EDM%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap brand">
+      <div class="brand-mark" aria-hidden="true">DM</div>
+      <div>
+        <p class="brand-title">Member Research Tools</p>
+        <p class="brand-sub">Distilled Markets &middot; ETF Portfolio Research</p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Research tools">
+    <div class="wrap tabs-row">
+      <button class="tab" id="tabbtn-structures" role="tab" aria-selected="true" aria-controls="panel-structures" data-tab="structures">Portfolio Structures</button>
+      <button class="tab" id="tabbtn-assets" role="tab" aria-selected="false" aria-controls="panel-assets" data-tab="assets">Core Asset Library</button>
+      <button class="tab" id="tabbtn-dca" role="tab" aria-selected="false" aria-controls="panel-dca" data-tab="dca">DCA Zone Map</button>
+    </div>
+  </nav>
+
+  <main class="wrap">
+
+    <section id="panel-structures" class="panel" role="tabpanel" aria-labelledby="tabbtn-structures">
+      <h1>Portfolio Structures</h1>
+      <p class="page-sub">Example allocation structures for different market regimes and risk profiles.</p>
+      <div id="structures-root" class="panel-body">
+        <p class="loading">Loading&hellip;</p>
+      </div>
+    </section>
+
+    <section id="panel-assets" class="panel" role="tabpanel" aria-labelledby="tabbtn-assets" hidden>
+      <h1>Core Asset Library</h1>
+      <p class="page-sub">The building blocks used across the portfolio structures, and why each one is on the list.</p>
+      <div id="assets-root" class="panel-body">
+        <p class="loading">Loading&hellip;</p>
+      </div>
+    </section>
+
+    <section id="panel-dca" class="panel" role="tabpanel" aria-labelledby="tabbtn-dca" hidden>
+      <h1>DCA Zone Map</h1>
+      <p class="page-sub">Where each asset currently sits relative to its accumulation bands.</p>
+      <p class="dca-meta">
+        <span class="pill pill-weekly">Prices updated weekly</span>
+        <span class="muted" id="dca-updated"></span>
+      </p>
+      <div id="dca-root" class="panel-body">
+        <p class="loading">Loading&hellip;</p>
+      </div>
+      <p class="zone-note muted">Bands are ladder-in accumulation zones: <strong>Slow</strong> = light accumulation, <strong>Moderate</strong> = steadier accumulation, <strong>Aggressive</strong> = deepest discount. &ldquo;Above zones&rdquo; means the price is above all three bands.</p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Distilled Markets &middot; Educational framework, not personalized advice. Nothing on this page is a recommendation to buy or sell any security. Prices are entered manually and updated roughly weekly.</p>
+    </div>
+  </footer>
+
+  <noscript>
+    <div class="wrap"><p class="data-error">This tool needs JavaScript enabled to display its data.</p></div>
+  </noscript>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

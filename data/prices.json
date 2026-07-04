@@ -1,0 +1,16 @@
+{
+  "_note": "WEEKLY UPDATE: change each asset's 'price' number and the 'updated' date below, then commit. That's all. The site works out each asset's active zone automatically. Bands: slow = light accumulation (highest band), moderate = steadier accumulation, aggressive = deepest discount (lowest band). Write a band as [low, high]; use 0 as the low number to mean 'below X'. See DATA-GUIDE.md for a plain-English how-to.",
+
+  "updated": "2026-07-03",
+
+  "assets": {
+    "VOO":  { "price": 512.30, "slow": [490, 505],   "moderate": [470, 490],  "aggressive": [0, 470] },
+    "VTI":  { "price": 298.40, "slow": [285, 300],   "moderate": [265, 285],  "aggressive": [0, 265] },
+    "VXUS": { "price": 64.85,  "slow": [66, 70],     "moderate": [60, 66],    "aggressive": [0, 60] },
+    "SCHD": { "price": 24.20,  "slow": [27.5, 29],   "moderate": [25, 27.5],  "aggressive": [0, 25] },
+    "QQQ":  { "price": 468.00, "slow": [450, 465],   "moderate": [420, 450],  "aggressive": [0, 420] },
+    "XLK":  { "price": 232.10, "slow": [220, 235],   "moderate": [200, 220],  "aggressive": [0, 200] },
+    "BND":  { "price": 73.40,  "slow": [72, 75],     "moderate": [69, 72],    "aggressive": [0, 69] },
+    "GLD":  { "price": 221.50, "slow": [205, 215],   "moderate": [190, 205],  "aggressive": [0, 190] }
+  }
+}
